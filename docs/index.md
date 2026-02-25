@@ -43,6 +43,11 @@
 3. 本仓库在对比工具时，优先关注“趋势方向 + 口径一致性”，避免将不同来源的单点数值做直接横向等价比较。
 ```
 
+## 导言数据来源
+
+- OpenRouter, *State of AI*: <https://openrouter.ai/state-of-ai>
+- SecondTalent, *Top Vibe Coding Statistics & Trends [2026]*: <https://www.secondtalent.com/resources/vibe-coding-statistics/>
+
 ## 快速入口
 
 ```{toctree}
@@ -79,8 +84,3 @@ research/todo
 ```{important}
 如果某工具官网是动态渲染，先在“证据链接”中记录可抓取的官方入口，再补充结论。
 ```
-
-## 导言数据来源
-
-- OpenRouter, *State of AI*: <https://openrouter.ai/state-of-ai>
-- SecondTalent, *Top Vibe Coding Statistics & Trends [2026]*: <https://www.secondtalent.com/resources/vibe-coding-statistics/>
