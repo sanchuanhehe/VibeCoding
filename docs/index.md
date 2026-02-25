@@ -45,6 +45,7 @@
 - Windsurf
 - Sourcegraph Cody
 - Amazon Q Developer
+- Google Antigravity
 
 ### B. AI Review / AI Checks（PR 与 CI）
 
@@ -76,6 +77,7 @@
 | Windsurf | 下一代 AI IDE | Windsurf IDE（含 Cascade） | Cascade 智能体、MCP、Memories/Rules、Context Awareness、Workflows、App Deploys；支持从 VS Code/Cursor 导入配置 | 想快速切换到 AI 原生 IDE 并保持上手平滑的团队 | 平台演进快，企业治理细项与第三方集成边界需按当前版本核对 |
 | Sourcegraph Cody | AI coding assistant（企业代码库上下文强化） | VS Code / JetBrains / Visual Studio / Web / CLI | 结合 Sourcegraph Search API 获取本地+远程仓库上下文，支持 Chat/Auto-edit/Prompts/Context Filters，强调企业代码理解 | 大型代码库、跨仓库上下文需求高的团队 | 高级能力常与 Sourcegraph 平台能力绑定，部署与采购模型需综合评估 |
 | Amazon Q Developer | 生成式 AI 开发助手（AWS 深度集成） | IDE 插件 / CLI / AWS 控制台 / 聊天应用 | 代码聊天与补全、生成与安全扫描、重构升级、AWS 架构与运维辅助、支持 Free/Pro 套餐 | AWS 生态内开发与运维一体化团队 | 最佳价值在 AWS 场景，跨云与非 AWS 工作流下能力优势可能下降 |
+| Google Antigravity | 终端优先 AI coding agent（Google 生态） | CLI（下载客户端） | 官网定价页显示支持 Gemini 3.1 Pro / Gemini 3 Flash / Claude Sonnet & Opus 4.6 / gpt-oss-120b，多模型代理；含无限 Tab 补全与命令请求（按套餐与限额） | 想在 Google 账号与 Google One/Workspace/Cloud 体系内使用 AI coding agent 的个人与团队 | 当前处于 Public preview，文档抓取受动态页面影响；企业级能力与配额细节需以实时 FAQ/控制台为准 |
 | Continue | AI checks / PR 审查（开源 CLI + 平台） | `cn` CLI + GitHub 状态检查 + CI | `.continue/checks` 规则即代码、PR 通过/失败、可接受建议修复、支持本地/CI 运行 | 想把 AI 审查“流程化、可执行化”的团队 | 需要先建设 checks 规则，初期有配置成本 |
 | CodeRabbit | AI 代码审查与规划平台 | Git 平台 + IDE 扩展 + CLI | 上下文感知 PR 审查、Issue Planner、支持 GitHub/GitLab/Azure/Bitbucket | 以 PR 审查效率为核心诉求的团队 | 深度能力与组织流程绑定，需团队习惯配合 |
 
@@ -152,6 +154,9 @@
 - Sourcegraph Cody Docs: <https://docs.sourcegraph.com/cody>
 - Amazon Q Developer Docs: <https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html>
 - Amazon Q Developer Overview: <https://aws.amazon.com/q/developer/>
+- Google Antigravity: <https://antigravity.google/>
+- Google Antigravity Pricing: <https://antigravity.google/pricing>
+- Google Antigravity FAQ: <https://antigravity.google/docs/faq>
 
 ## 下一步补充清单
 
