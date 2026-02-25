@@ -11,7 +11,7 @@
 - 明确边界（写码、重构、审查、CI、治理）
 - 形成可持续迭代的评测知识库
 
-## 对比维度（统一口径）
+## 对比维度
 
 1. 定位：AI coding assistant / AI agent / AI review
 2. 运行形态：IDE 插件 / CLI / Web / CI / Git 平台集成
