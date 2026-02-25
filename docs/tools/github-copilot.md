@@ -36,6 +36,12 @@ GitHub Copilot 以约 42%的市场份额在付费 AI 编程工具中保持领先
 * - Chat / 问答
   - ✅
   - 支持在 GitHub、IDE、CLI 等入口对话
+* - third-party agent 支持
+  - ✅
+  - 支持接入第三方 coding agents（如 Claude、Codex）
+* - third-party model provider 支持
+  - ✅
+  - 支持连接第三方模型提供商（如 OpenRouter）
 * - GitHub 内 PR/代码流程
   - ✅
   - 可生成 PR 变更描述、在仓库与 PR 场景提问
