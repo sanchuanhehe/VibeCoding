@@ -1,3 +1,11 @@
+---
+tool: "Cline"
+website: "https://github.com/cline/cline"
+docs: "https://docs.cline.bot"
+verified_date: ""
+verified_by: ""
+---
+
 # Cline
 
 ## 工具定位

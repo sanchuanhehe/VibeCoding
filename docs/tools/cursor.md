@@ -1,3 +1,11 @@
+---
+tool: "Cursor"
+website: "https://www.cursor.com"
+docs: "https://cursor.com/docs.md"
+verified_date: ""
+verified_by: ""
+---
+
 # Cursor
 
 ## 工具定位

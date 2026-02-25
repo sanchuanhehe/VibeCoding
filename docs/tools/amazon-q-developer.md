@@ -1,3 +1,11 @@
+---
+tool: "Amazon Q Developer"
+website: "https://aws.amazon.com/q/developer/"
+docs: "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html"
+verified_date: ""
+verified_by: ""
+---
+
 # Amazon Q Developer
 
 ## 工具定位

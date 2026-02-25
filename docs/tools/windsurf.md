@@ -1,3 +1,11 @@
+---
+tool: "Windsurf"
+website: "https://windsurf.com"
+docs: "https://docs.windsurf.com"
+verified_date: ""
+verified_by: ""
+---
+
 # Windsurf
 
 ## 工具定位

@@ -1,3 +1,11 @@
+---
+tool: "Sourcegraph Cody"
+website: "https://sourcegraph.com/cody"
+docs: "https://docs.sourcegraph.com/cody"
+verified_date: ""
+verified_by: ""
+---
+
 # Sourcegraph Cody
 
 ## 工具定位

@@ -1,3 +1,11 @@
+---
+tool: "CodeRabbit"
+website: "https://coderabbit.ai"
+docs: "https://docs.coderabbit.ai"
+verified_date: ""
+verified_by: ""
+---
+
 # CodeRabbit
 
 ## 工具定位

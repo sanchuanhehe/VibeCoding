@@ -1,3 +1,11 @@
+---
+tool: "Continue"
+website: "https://www.continue.dev"
+docs: "https://docs.continue.dev"
+verified_date: ""
+verified_by: ""
+---
+
 # Continue
 
 ## 工具定位

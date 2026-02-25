@@ -1,3 +1,11 @@
+---
+tool: "GitHub Copilot"
+website: "https://github.com/features/copilot"
+docs: "https://docs.github.com/en/copilot"
+verified_date: ""
+verified_by: ""
+---
+
 # GitHub Copilot
 
 > _本工具是笔者常用的工具,笔者认为github的策略非常开放,只要是能够在保证ai驱动的前提下,无论是谁家的模型和工具,都可以接入_

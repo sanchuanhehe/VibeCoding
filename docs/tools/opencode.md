@@ -1,3 +1,11 @@
+---
+tool: "OpenCode"
+website: "https://opencode.ai"
+docs: "https://github.com/anomalyco/opencode"
+verified_date: ""
+verified_by: ""
+---
+
 # OpenCode
 
 ## 工具定位

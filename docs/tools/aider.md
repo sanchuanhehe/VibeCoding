@@ -1,3 +1,11 @@
+---
+tool: "Aider"
+website: "https://aider.chat"
+docs: "https://aider.chat/docs"
+verified_date: ""
+verified_by: ""
+---
+
 # Aider
 
 ## 工具定位

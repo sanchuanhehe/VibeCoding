@@ -1,3 +1,11 @@
+---
+tool: "Codeium"
+website: "https://codeium.com"
+docs: "https://docs.codeium.com"
+verified_date: ""
+verified_by: ""
+---
+
 # Codeium
 
 ```{warning}

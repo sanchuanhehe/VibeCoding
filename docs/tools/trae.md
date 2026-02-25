@@ -1,3 +1,11 @@
+---
+tool: "Trae"
+website: "https://www.trae.ai"
+docs: "https://docs.trae.ai"
+verified_date: ""
+verified_by: ""
+---
+
 # Trae
 
 ## 工具定位

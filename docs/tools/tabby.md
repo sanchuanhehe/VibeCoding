@@ -1,3 +1,11 @@
+---
+tool: "Tabby"
+website: "https://tabbyml.com"
+docs: "https://tabby.tabbyml.com/docs/"
+verified_date: ""
+verified_by: ""
+---
+
 # Tabby
 
 ## 工具定位

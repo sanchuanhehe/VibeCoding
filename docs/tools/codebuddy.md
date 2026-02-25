@@ -1,3 +1,11 @@
+---
+tool: "CodeBuddy"
+website: "https://www.codebuddy.cn"
+docs: "https://www.codebuddy.cn/docs/ide/Introduction"
+verified_date: ""
+verified_by: ""
+---
+
 # CodeBuddy
 
 ## 工具定位

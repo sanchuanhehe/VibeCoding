@@ -1,3 +1,11 @@
+---
+tool: "JetBrains AI Assistant"
+website: "https://www.jetbrains.com/ai/"
+docs: "https://www.jetbrains.com/help/ai-assistant/about-ai-assistant.html"
+verified_date: ""
+verified_by: ""
+---
+
 # JetBrains AI Assistant
 
 ## 工具定位

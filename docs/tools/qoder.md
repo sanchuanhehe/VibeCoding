@@ -1,3 +1,11 @@
+---
+tool: "Qoder"
+website: "https://qoder.com"
+docs: "https://docs.qoder.com/zh/"
+verified_date: ""
+verified_by: ""
+---
+
 # Qoder
 
 ## 工具定位

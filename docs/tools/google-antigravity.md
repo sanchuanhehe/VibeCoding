@@ -1,3 +1,11 @@
+---
+tool: "Google Antigravity"
+website: "https://antigravity.google"
+docs: "https://antigravity.google/docs/faq"
+verified_date: ""
+verified_by: ""
+---
+
 # Google Antigravity
 
 ## 工具定位

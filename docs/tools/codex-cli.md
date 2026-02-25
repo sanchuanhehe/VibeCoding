@@ -1,3 +1,11 @@
+---
+tool: "Codex CLI"
+website: "https://github.com/openai/codex"
+docs: "https://developers.openai.com/codex/cli"
+verified_date: ""
+verified_by: ""
+---
+
 # Codex CLI
 
 ## 工具定位

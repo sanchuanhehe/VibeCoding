@@ -1,3 +1,11 @@
+---
+tool: "Qwen Code"
+website: "https://github.com/QwenLM/qwen-code"
+docs: "https://qwenlm.github.io/qwen-code-docs/zh/users/overview/"
+verified_date: ""
+verified_by: ""
+---
+
 # Qwen Code
 
 ## 工具定位
