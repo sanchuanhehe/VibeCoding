@@ -6,7 +6,7 @@
       "/usr/bin/python",
       "-S"
     ],
-    "cwd": "${workspaceFolder}"
+    "cwd": "/home/sanchuanhehe/Documents/VibeCoding"
   },
   "esbonio.sphinx.buildCommand": [
     "/usr/bin/python",
@@ -14,7 +14,7 @@
     "sphinx",
     "-M",
     "dirhtml",
-    "docs",
-    "docs/_build"
+    "/home/sanchuanhehe/Documents/VibeCoding/docs",
+    "/home/sanchuanhehe/Documents/VibeCoding/docs/_build"
   ]
 }
