@@ -9,12 +9,10 @@
     "cwd": "${scopeFsPath}"
   },
   "esbonio.sphinx.buildCommand": [
-    "python3",
-    "-m",
-    "sphinx",
+    "sphinx-build",
     "-M",
     "dirhtml",
     "docs",
-    "docs/_build"
+    "${defaultBuildDir}"
   ]
 }
