@@ -1,5 +1,7 @@
 # Claude Code
 
+> ai coding agent，提供多端一致的 agentic coding 体验，支持跨文件、命令执行、MCP 等能力。作为业界最先进的领军者,定义着agent工具的形态和终端体验,是目前生态最好,功能最全的agent工具之一
+
 ## 工具定位
 
 - 定位：Agentic coding

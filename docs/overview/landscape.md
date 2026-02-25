@@ -26,32 +26,32 @@
 
 ### A. 通用 AI Coding（IDE/终端协作）
 
-- GitHub Copilot
-- Claude Code
-- Codex CLI
-- Cline
-- Aider
-- Tabby
-- JetBrains AI Assistant
-- Trae
-- CodeBuddy
-- Qwen Code
-- Qoder
-- OpenCode
-- Cursor
-- Windsurf
-- Sourcegraph Cody
-- Amazon Q Developer
-- Google Antigravity
+- [GitHub Copilot](../tools/github-copilot.md)
+- [Claude Code](../tools/claude-code.md)
+- [Codex CLI](../tools/codex-cli.md)
+- [Cline](../tools/cline.md)
+- [Aider](../tools/aider.md)
+- [Tabby](../tools/tabby.md)
+- [JetBrains AI Assistant](../tools/jetbrains-ai-assistant.md)
+- [Trae](../tools/trae.md)
+- [CodeBuddy](../tools/codebuddy.md)
+- [Qwen Code](../tools/qwen-code.md)
+- [Qoder](../tools/qoder.md)
+- [OpenCode](../tools/opencode.md)
+- [Cursor](../tools/cursor.md)
+- [Windsurf](../tools/windsurf.md)
+- [Sourcegraph Cody](../tools/sourcegraph-cody.md)
+- [Amazon Q Developer](../tools/amazon-q-developer.md)
+- [Google Antigravity](../tools/google-antigravity.md)
 
 ### B. AI Review / AI Checks（PR 与 CI）
 
-- Continue
-- CodeRabbit
+- [Continue](../tools/continue.md)
+- [CodeRabbit](../tools/coderabbit.md)
 
 ### C. 待补证据
 
-- Codeium
+- [Codeium](../tools/codeium.md)
 
 ```{tip}
 详细信息请进入“工具档案”下的单工具页面维护。
