@@ -1,15 +1,15 @@
 {
   "esbonio.server.enabled": true,
-  "esbonio.server.pythonPath": "${command:python.interpreterPath}",
+  "esbonio.server.pythonPath": "/usr/bin/python",
   "esbonio.sphinx.pythonCommand": {
     "command": [
-      "${command:python.interpreterPath}",
+      "/usr/bin/python",
       "-S"
     ],
     "cwd": "${workspaceFolder}"
   },
   "esbonio.sphinx.buildCommand": [
-    "${command:python.interpreterPath}",
+    "/usr/bin/python",
     "-m",
     "sphinx",
     "-M",
