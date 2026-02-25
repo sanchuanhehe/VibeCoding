@@ -134,6 +134,12 @@
   - 上下文感知 PR 审查、Issue Planner、支持 GitHub/GitLab/Azure/Bitbucket
   - 以 PR 审查效率为核心的团队
   - 深度能力与组织流程绑定
+* - zed
+  - AI Agent 平台（IDE 竞争者）
+  - zed IDE + ACP 协议
+  - ACP 协议支持、Agent-IDE 深度集成、工具调用丰富交互界面
+  - 追求创新 Agent-IDE 交互的团队
+  - 处于早期阶段，生态与能力快速演进中
 ```
 
 ```{raw} latex
