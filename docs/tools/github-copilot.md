@@ -30,6 +30,9 @@
 * - Agent Management
   - ✅
   - 提供 Agents 视图集中查看会话、日志、中途 steering
+* - Agent HQ（Agents 页面）
+  - ✅
+  - 提供集中控制台，用于统一启动、切换、跟踪多个 agent 会话
 * - Skills 支持
   - ✅
   - 支持 `project skills` 与 `personal skills`，采用开放 Agent Skills 规范
@@ -62,6 +65,18 @@
 - MCP 粒度（企业层）：可配置 MCP Registry URL，并在 `Allow all` 与 `Registry only` 间切换。
 - 模型粒度：管理员策略可排除模型；Auto 模式会在可用模型集合中自动选择。
 - 配额粒度：premium requests 按计划计量，支持额外预算控制。
+
+## Agent HQ（重点补充）
+
+- 定义：通常可理解为 GitHub Copilot 的 Agents 中枢页面（Agents page + 仓库内 Agents tab）。
+- 入口：仓库内 Agents tab，或全局页面 `https://github.com/copilot/agents`。
+- 核心能力：
+  - 发起新任务并选择模型/agent（含第三方 agent 与 custom agent）。
+  - 查看实时 session 日志与进度，跟踪并发运行任务。
+  - 会话中途 steering（不中断任务追加指令）。
+  - 将会话转到本地继续（Open in VS Code / Continue in Copilot CLI）。
+  - 回到 PR 完成审阅与合并闭环。
+- 管理价值：把“任务分派—过程可视—中途干预—结果回收”收敛到一个控制平面，降低多 agent 并行时的管理成本。
 
 ## 源码侧补充（vscode-copilot-chat 参考）
 
@@ -102,6 +117,7 @@
 - 官方总览：<https://docs.github.com/en/copilot>
 - 功能与入口：<https://docs.github.com/en/copilot/get-started/what-is-github-copilot>
 - Agent 管理：<https://docs.github.com/en/copilot/concepts/agents/coding-agent/agent-management>
+- Agent HQ 页面：<https://github.com/copilot/agents>
 - 第三方 Agents：<https://docs.github.com/en/copilot/concepts/agents/about-third-party-agents>
 - Skills：<https://docs.github.com/en/copilot/concepts/agents/about-agent-skills>
 - Custom Agents：<https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-custom-agents>
