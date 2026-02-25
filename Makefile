@@ -1,7 +1,10 @@
-.PHONY: docs clean lint-md lint-md-fix
+.PHONY: docs pdf clean lint-md lint-md-fix
 
 docs:
 	uv run sphinx-build -W --keep-going -b html docs docs/_build/html
+
+pdf:
+	uv run sphinx-build -M latexpdf docs docs/_build
 
 lint-md:
 	npx markdownlint-cli "**/*.md" --ignore docs/_build
