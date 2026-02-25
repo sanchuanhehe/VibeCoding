@@ -1,5 +1,7 @@
 # GitHub Copilot
 
+> _本工具是笔者常用的工具,笔者认为github的策略非常开放,只要是能够在保证ai驱动的前提下,无论是谁家的模型,都可以接入_
+
 ## 工具定位
 
 - 定位：覆盖 GitHub + IDE + CLI 的全栈 AI coding/agent 平台
