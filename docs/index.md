@@ -40,6 +40,7 @@
 - CodeBuddy（腾讯云）
 - Qwen Code（Qwen CLI）
 - Qoder
+- OpenCode
 
 ### B. AI Review / AI Checks（PR 与 CI）
 
@@ -69,6 +70,7 @@
 | CodeBuddy（含 CodeBuddy Code） | 全流程 AI 编程平台（IDE/插件/CLI） | CodeBuddy IDE / IDE 插件 / CLI | 从需求到部署链路、代码补全与审查、规则/记忆/MCP、Plan/Subagents/Skills/Hooks、企业版能力（SSO/管理/网络） | 国内团队、腾讯云生态、需要企业管理能力的组织 | 产品线较多（IDE/插件/CLI），落地时需先统一团队工作模式；“Flow”命名在公开文档以模式能力呈现为主 |
 | Qwen Code（Qwen CLI） | 开源终端 Agent（Qwen 生态） | CLI（`qwen`）+ IDE 集成 | 终端优先、交互/无头模式、MCP、子智能体、可接 OpenAI/Anthropic/Gemini 兼容端点 + Qwen OAuth | 偏好开源+国内模型生态、CI 自动化需求团队 | 需要一定 CLI 与配置能力；企业级治理能力依赖外围平台与自建规范 |
 | Qoder | Agentic 编码平台（IDE/JetBrains/CLI） | AI-Native IDE / JetBrains 插件 / CLI | 强调上下文工程+智能体，多文件修改、Quest Mode、Repo Wiki、MCP 扩展，支持团队版（含 SSO/集中管理） | 希望兼顾 IDE 体验与 Agent 深度能力，并需要团队治理能力的团队 | 生态更新较快，部分企业能力仍在持续迭代；高级模型额度依赖 Credits 体系 |
+| OpenCode | 开源 AI coding agent（终端优先） | CLI/TUI + Desktop（Beta） | 100% 开源、终端优先体验、内置 build/plan agent、Provider-agnostic（Claude/OpenAI/Google/本地模型）、可扩展文档与配置体系 | 偏好开源和终端工作流、希望避免绑定单一模型厂商的开发者/团队 | 以终端体验为核心，企业治理与托管能力需结合外部平台；部分图形化体验仍在完善 |
 | Continue | AI checks / PR 审查（开源 CLI + 平台） | `cn` CLI + GitHub 状态检查 + CI | `.continue/checks` 规则即代码、PR 通过/失败、可接受建议修复、支持本地/CI 运行 | 想把 AI 审查“流程化、可执行化”的团队 | 需要先建设 checks 规则，初期有配置成本 |
 | CodeRabbit | AI 代码审查与规划平台 | Git 平台 + IDE 扩展 + CLI | 上下文感知 PR 审查、Issue Planner、支持 GitHub/GitLab/Azure/Bitbucket | 以 PR 审查效率为核心诉求的团队 | 深度能力与组织流程绑定，需团队习惯配合 |
 
@@ -136,6 +138,8 @@
 - Qwen Code Docs (ZH): <https://qwenlm.github.io/qwen-code-docs/zh/users/overview/>
 - Qoder Docs (ZH): <https://docs.qoder.com/zh/>
 - Qoder Pricing: <https://docs.qoder.com/zh/account/pricing>
+- OpenCode Repo: <https://github.com/anomalyco/opencode>
+- OpenCode Website: <https://opencode.ai/>
 
 ## 下一步补充清单
 
