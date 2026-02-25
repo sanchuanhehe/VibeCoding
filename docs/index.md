@@ -41,6 +41,10 @@
 - Qwen Code（Qwen CLI）
 - Qoder
 - OpenCode
+- Cursor
+- Windsurf
+- Sourcegraph Cody
+- Amazon Q Developer
 
 ### B. AI Review / AI Checks（PR 与 CI）
 
@@ -50,17 +54,14 @@
 
 ### C. 待补充（官网动态渲染或本次未完成核验）
 
-- Cursor
-- Windsurf / Codeium
-- Sourcegraph Cody
-- Amazon Q Developer
+- Codeium（独立文档证据待补）
 
 ## 对比表（已核验条目，含新增）
 
 | 工具 | 主要定位 | 典型入口 | 亮点能力 | 适合场景 | 主要限制/注意点 |
 |---|---|---|---|---|---|
 | GitHub Copilot | 通用 AI coding + agent + review | GitHub / IDE / Terminal | Agent mode、Copilot coding agent、Copilot code review、多模型、企业治理能力、AGENT HQ 企业级工具里的开源开放派(能使用国外所有的模型,且代码开源) 依托vscode上游,与vscode深度融合 功能齐全 发布节奏快 订阅覆盖面最广 且其订阅现在能够在claude code和codex工具使用,官方提供转换的方法 | 已深度使用 GitHub 生态的团队 | 价格与配额受套餐影响(额度按次计费,还算便宜,但是有最大限额)；企业能力需管理员配置 |
-| Claude Code | Agentic coding（终端/IDE/桌面/Web） | Terminal / VS Code / JetBrains / Desktop / Web | 代码库级操作、命令执行、MCP 连接、可用 GitHub Actions/GitLab CI 做自动化 | 需要“一套引擎多端一致体验”的团队 | 高级能力常依赖订阅与账号体系；不同端能力细节有差异 |
+| Claude Code | Agentic coding（终端/IDE/桌面/Web） | Terminal / VS Code / JetBrains / Desktop / Web | 代码库级操作、命令执行、MCP 连接、可用 GitHub Actions/GitLab CI 做自动化 提出了很多领先的理念,例如skills mcp 插件,已经成为ai coding届的事实标准 | 需要“一套引擎多端一致体验”的团队 | 高级能力常依赖订阅与账号体系；不同端能力细节有差异 |
 | Codex CLI | 终端编码 Agent（开源 CLI） | Terminal（macOS/Linux，Windows 实验） | 本地读写代码、执行命令、非交互模式、MCP/多 Agent/SDK/CI 集成路径完整 | 终端优先、自动化和脚本化需求强的团队 | 对命令行工作流有要求；能力边界受审批模式和环境权限影响 |
 | Cline | IDE/CLI Agent（开源） | VS Code 扩展 + CLI | Plan/Act 工作流、MCP 扩展、支持多模型与多 Provider、可接 VS Code LM API | 需要可定制 Agent 工作流的开发者 | 配置项较多，上手门槛高于“开箱即用”产品 |
 | Aider | 终端 AI Pair Programming（开源） | CLI（可配 IDE） | Repo map、Git 自动提交、Lint/Test 联动、支持云端与本地多模型 | 终端优先、重视可控改码与 Git 流程 | 体验偏 CLI 心智，对纯 IDE 用户不一定友好 |
@@ -71,6 +72,10 @@
 | Qwen Code（Qwen CLI） | 开源终端 Agent（Qwen 生态） | CLI（`qwen`）+ IDE 集成 | 终端优先、交互/无头模式、MCP、子智能体、可接 OpenAI/Anthropic/Gemini 兼容端点 + Qwen OAuth | 偏好开源+国内模型生态、CI 自动化需求团队 | 需要一定 CLI 与配置能力；企业级治理能力依赖外围平台与自建规范 |
 | Qoder | Agentic 编码平台（IDE/JetBrains/CLI） | AI-Native IDE / JetBrains 插件 / CLI | 强调上下文工程+智能体，多文件修改、Quest Mode、Repo Wiki、MCP 扩展，支持团队版（含 SSO/集中管理） | 希望兼顾 IDE 体验与 Agent 深度能力，并需要团队治理能力的团队 | 生态更新较快，部分企业能力仍在持续迭代；高级模型额度依赖 Credits 体系 |
 | OpenCode | 开源 AI coding agent（终端优先） | CLI/TUI + Desktop（Beta） | 100% 开源、终端优先体验、内置 build/plan agent、Provider-agnostic（Claude/OpenAI/Google/本地模型）、可扩展文档与配置体系 | 偏好开源和终端工作流、希望避免绑定单一模型厂商的开发者/团队 | 以终端体验为核心，企业治理与托管能力需结合外部平台；部分图形化体验仍在完善 |
+| Cursor | AI 编辑器 + 编码 Agent | Cursor IDE / CLI / Cloud Agent | 官方文档覆盖 Agent、CLI、Cloud Agent、MCP、Rules、Subagents、企业治理与合规章节，支持多模型与团队管理能力 | 需要“IDE + Agent + 企业策略”一体化的团队 | 动态文档更新快，功能与计费策略迭代频繁，落地时需按团队版本复核 |
+| Windsurf | 下一代 AI IDE | Windsurf IDE（含 Cascade） | Cascade 智能体、MCP、Memories/Rules、Context Awareness、Workflows、App Deploys；支持从 VS Code/Cursor 导入配置 | 想快速切换到 AI 原生 IDE 并保持上手平滑的团队 | 平台演进快，企业治理细项与第三方集成边界需按当前版本核对 |
+| Sourcegraph Cody | AI coding assistant（企业代码库上下文强化） | VS Code / JetBrains / Visual Studio / Web / CLI | 结合 Sourcegraph Search API 获取本地+远程仓库上下文，支持 Chat/Auto-edit/Prompts/Context Filters，强调企业代码理解 | 大型代码库、跨仓库上下文需求高的团队 | 高级能力常与 Sourcegraph 平台能力绑定，部署与采购模型需综合评估 |
+| Amazon Q Developer | 生成式 AI 开发助手（AWS 深度集成） | IDE 插件 / CLI / AWS 控制台 / 聊天应用 | 代码聊天与补全、生成与安全扫描、重构升级、AWS 架构与运维辅助、支持 Free/Pro 套餐 | AWS 生态内开发与运维一体化团队 | 最佳价值在 AWS 场景，跨云与非 AWS 工作流下能力优势可能下降 |
 | Continue | AI checks / PR 审查（开源 CLI + 平台） | `cn` CLI + GitHub 状态检查 + CI | `.continue/checks` 规则即代码、PR 通过/失败、可接受建议修复、支持本地/CI 运行 | 想把 AI 审查“流程化、可执行化”的团队 | 需要先建设 checks 规则，初期有配置成本 |
 | CodeRabbit | AI 代码审查与规划平台 | Git 平台 + IDE 扩展 + CLI | 上下文感知 PR 审查、Issue Planner、支持 GitHub/GitLab/Azure/Bitbucket | 以 PR 审查效率为核心诉求的团队 | 深度能力与组织流程绑定，需团队习惯配合 |
 
@@ -140,9 +145,16 @@
 - Qoder Pricing: <https://docs.qoder.com/zh/account/pricing>
 - OpenCode Repo: <https://github.com/anomalyco/opencode>
 - OpenCode Website: <https://opencode.ai/>
+- Cursor Docs Index: <https://www.cursor.com/llms.txt>
+- Cursor Docs Overview: <https://cursor.com/docs.md>
+- Windsurf Docs: <https://docs.windsurf.com>
+- Windsurf Pricing: <https://windsurf.com/pricing>
+- Sourcegraph Cody Docs: <https://docs.sourcegraph.com/cody>
+- Amazon Q Developer Docs: <https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html>
+- Amazon Q Developer Overview: <https://aws.amazon.com/q/developer/>
 
 ## 下一步补充清单
 
-1. 逐个补全 Cursor / Windsurf / Cody / Amazon Q Developer 的官方文档证据。
+1. 逐个补全 Codeium 的官方文档证据。
 2. 增加“定价对比表（个人/团队/企业）”。
 3. 增加“同一任务基准对比”（例如：修复 bug、跨文件重构、PR 安全审查）。
