@@ -68,7 +68,7 @@ tools/index
 ```
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
 :caption: 评测资产
 
 templates/tool-review-template
