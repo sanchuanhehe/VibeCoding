@@ -1,6 +1,13 @@
 # GitHub Copilot
 
-> _本工具是笔者常用的工具,笔者认为github的策略非常开放,只要是能够在保证ai驱动的前提下,无论是谁家的模型,都可以接入_
+> _本工具是笔者常用的工具,笔者认为github的策略非常开放,只要是能够在保证ai驱动的前提下,无论是谁家的模型和工具,都可以接入_
+
+## 市场分析
+
+GitHub Copilot 以约 42%的市场份额在付费 AI 编程工具中保持领先地位，这得益于其与 Visual Studio Code 和 GitHub 工作流程的深度集成。然而，新兴的专业化工具正逐渐获得关注。Cursor 凭借对整个代码库理解的优势，已占据 18%的市场份额，而 Replit 基于浏览器的开发模式则吸引了 12%的用户，这些用户更看重工具的可访问性，而非本地开发环境。
+
+> 注：以上市场占比为第三方统计口径，可能随时间与样本范围变化；请以原始页面最新说明为准。  
+> 数据来源：<https://www.secondtalent.com/resources/vibe-coding-statistics/>
 
 ## 工具定位
 
@@ -71,7 +78,7 @@
 
 ## Agent HQ（重点补充）
 
-- 定义：通常可理解为 GitHub Copilot 的 Agents 中枢页面（Agents page + 仓库内 Agents tab）。
+- 定义：GitHub 官方将 Agent HQ 描述为“统一编排任意 agent 的工作流”，其核心是 mission control（统一指挥中心）。
 - 入口：仓库内 Agents tab，或全局页面 `https://github.com/copilot/agents`。
 - 核心能力：
   - 发起新任务并选择模型/agent（含第三方 agent 与 custom agent）。
@@ -79,6 +86,11 @@
   - 会话中途 steering（不中断任务追加指令）。
   - 将会话转到本地继续（Open in VS Code / Continue in Copilot CLI）。
   - 回到 PR 完成审阅与合并闭环。
+- 第三方 agent 范围：官方已支持在 GitHub 工作流中接入第三方 coding agents（当前文档列出 Anthropic Claude 与 OpenAI Codex）。
+- 计划与可用性（需持续核验）：
+  - 第三方 agents：Docs 标注为 Pro+ 与 Enterprise 可用，且处于 public preview。
+  - Anthropic Claude agent：Docs 标注为 Pro+ 可用，处于 public preview。
+  - OpenAI Codex：Docs 标注为 VS Code Insiders 下 Pro+ 可用，处于 public preview。
 - 管理价值：把“任务分派—过程可视—中途干预—结果回收”收敛到一个控制平面，降低多 agent 并行时的管理成本。
 
 ## 源码侧补充（vscode-copilot-chat 参考）
@@ -117,11 +129,15 @@
 
 ## 证据链接
 
+- 市场数据来源（第三方统计）：<https://www.secondtalent.com/resources/vibe-coding-statistics/>
 - 官方总览：<https://docs.github.com/en/copilot>
 - 功能与入口：<https://docs.github.com/en/copilot/get-started/what-is-github-copilot>
 - Agent 管理：<https://docs.github.com/en/copilot/concepts/agents/coding-agent/agent-management>
 - Agent HQ 页面：<https://github.com/copilot/agents>
 - 第三方 Agents：<https://docs.github.com/en/copilot/concepts/agents/about-third-party-agents>
+- OpenAI Codex（agent）：<https://docs.github.com/en/copilot/concepts/agents/openai-codex>
+- Anthropic Claude（agent）：<https://docs.github.com/en/copilot/concepts/agents/anthropic-claude>
+- Agent HQ 官方博客：<https://github.blog/news-insights/company-news/welcome-home-agents/>
 - Skills：<https://docs.github.com/en/copilot/concepts/agents/about-agent-skills>
 - Custom Agents：<https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-custom-agents>
 - Integrations（插件/集成）：<https://docs.github.com/en/copilot/concepts/tools/about-copilot-integrations>
