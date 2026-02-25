@@ -76,16 +76,7 @@ tools/index
 templates/tool-review-template
 research/sources
 research/todo
-```
-
-## 维护约定
-
-1. 优先引用官方文档、官方仓库与官方价格页。
-2. 每个工具结论都沉淀到独立页面，避免主页面无限膨胀。
-3. 评测新增内容优先写在“功能列表 + 详细评价 + 证据链接”三块。
-
-```{important}
-如果某工具官网是动态渲染，先在“证据链接”中记录可抓取的官方入口，再补充结论。
+maintenance
 ```
 
 ::::
