@@ -67,6 +67,8 @@ overview/china-tools
 tools/index
 ```
 
+::::{only} html
+
 ```{toctree}
 :maxdepth: 1
 :caption: 评测资产
@@ -85,3 +87,5 @@ research/todo
 ```{important}
 如果某工具官网是动态渲染，先在“证据链接”中记录可抓取的官方入口，再补充结论。
 ```
+
+::::
