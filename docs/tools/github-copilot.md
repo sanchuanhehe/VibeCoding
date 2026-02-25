@@ -34,6 +34,9 @@
 * - Custom Agents
   - ✅
   - 通过 agent profile 定义提示词、可用 tools、可用 MCP servers
+* - Subagent / 多代理协作
+  - ✅
+  - 支持第三方 agents 与 custom agents 共同参与任务分派与执行
 * - 插件/集成支持
   - ✅
   - 支持与 Teams/Slack/Linear/Azure Boards 集成触发 coding agent
@@ -52,6 +55,7 @@
 
 - Skills 粒度：支持仓库级 `/.github/skills`、`/.claude/skills`，以及个人级 `~/.copilot/skills`、`~/.claude/skills`。
 - Agent 粒度：可在 agent session 中实时 steering，并可在 GitHub 与本地（VS Code/CLI）之间切换继续执行。
+- Subagent 粒度：可按任务选择 Copilot、第三方 agents 或自定义 agents，形成“主 agent + 专项 agent”协作模式。
 - Tool 粒度（产品层）：custom agent profile 可显式限定 `tools`，默认可访问内建与 MCP 工具。
 - MCP 粒度（企业层）：可配置 MCP Registry URL，并在 `Allow all` 与 `Registry only` 间切换。
 - 模型粒度：管理员策略可排除模型；Auto 模式会在可用模型集合中自动选择。
@@ -65,7 +69,6 @@
 - 工具治理约束：`languageModelAccess.ts` 对 tool 请求做限制（如工具数量上限、`Required` 模式下单工具约束）。
 - 扩展级风控：`BlockedExtensionService` 支持对高频/异常扩展做临时阻断。
 - 工具体系设计：`docs/tools.md` 明确 `languageModelTools`、`toolsets`、model-specific tools 与危险工具确认流程。
-
 
 ## 适合场景
 
@@ -97,6 +100,7 @@
 - 官方总览：<https://docs.github.com/en/copilot>
 - 功能与入口：<https://docs.github.com/en/copilot/get-started/what-is-github-copilot>
 - Agent 管理：<https://docs.github.com/en/copilot/concepts/agents/coding-agent/agent-management>
+- 第三方 Agents：<https://docs.github.com/en/copilot/concepts/agents/about-third-party-agents>
 - Skills：<https://docs.github.com/en/copilot/concepts/agents/about-agent-skills>
 - Custom Agents：<https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-custom-agents>
 - Integrations（插件/集成）：<https://docs.github.com/en/copilot/concepts/tools/about-copilot-integrations>
