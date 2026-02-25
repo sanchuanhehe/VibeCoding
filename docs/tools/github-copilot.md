@@ -101,14 +101,15 @@ GitHub Copilot 以约 42%的市场份额在付费 AI 编程工具中保持领先
   - OpenAI Codex：Docs 标注为 VS Code Insiders 下 Pro+ 可用，处于 public preview。
 - 管理价值：把“任务分派—过程可视—中途干预—结果回收”收敛到一个控制平面，降低多 agent 并行时的管理成本。
 
-## 源码侧补充（vscode-copilot-chat 参考）
+## 架构与治理机制（基于 vscode-copilot-chat 源码观察）
 
-- Skills 解析与启用列表：`remoteAgents.ts` 中存在 `ListSkills`、`resolveCopilotSkills`、`getPlatformAgentSkills` 实现。
-- MCP 扩展接入：`GitHubMcpContrib` 通过 `registerMcpServerDefinitionProvider('github', ...)` 注册 GitHub MCP provider。
-- MCP 安装流：`McpSetupCommands` 提供 `validatePackage`、`setup.flow` 等命令流程（含遥测与校验）。
-- 工具治理约束：`languageModelAccess.ts` 对 tool 请求做限制（如工具数量上限、`Required` 模式下单工具约束）。
-- 扩展级风控：`BlockedExtensionService` 支持对高频/异常扩展做临时阻断。
-- 工具体系设计：`docs/tools.md` 明确 `languageModelTools`、`toolsets`、model-specific tools 与危险工具确认流程。
+通过分析其开源的 VS Code 扩展源码，可以发现 Copilot 在底层设计上高度重视**扩展性**与**安全性**：
+
+- **Agent 与 Skills 扩展机制**：底层已实现完整的平台级 Agent 解析与 Skills 路由逻辑，支持动态加载和解析不同层级（平台级、用户级）的 Skills。
+- **标准化的 MCP 接入流**：不仅支持 MCP 协议，还内置了完整的 MCP Server 生命周期管理（包含包校验、安装流、遥测监控），确保第三方工具接入的稳定性。
+- **严格的工具调用治理**：在模型访问层实施了硬性约束，例如限制单次请求的工具数量上限、强制工具调用模式下的安全校验等。
+- **动态风控与扩展阻断**：内置了扩展级的风控服务，能够在发现高频异常或恶意调用时，对特定扩展进行临时阻断，保障本地 IDE 环境安全。
+- **分层工具体系**：将工具划分为通用语言模型工具、工具集（toolsets）以及特定模型工具，并对“危险工具”设计了明确的用户确认（Human-in-the-loop）流程。
 
 ## 适合场景
 
