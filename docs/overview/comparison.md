@@ -11,7 +11,7 @@
 ```
 
 | 工具 | 主要定位 | 典型入口 | 亮点能力 | 适合场景 | 主要限制/注意点 |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | GitHub Copilot | 通用 AI coding + agent + review | GitHub / IDE / Terminal | Agent mode、Copilot coding agent、Copilot code review、多模型、企业治理能力、AGENT HQ 企业级工具里的开源开放派(能使用国外所有的模型,且代码开源) 依托vscode上游,与vscode深度融合 功能齐全 发布节奏快 订阅覆盖面最广 且其订阅现在能够在claude code和codex工具使用,官方提供转换的方法 | 已深度使用 GitHub 生态的团队 | 价格与配额受套餐影响(额度按次计费,还算便宜,但是有最大限额)；企业能力需管理员配置 |
 | Claude Code | Agentic coding（终端/IDE/桌面/Web） | Terminal / VS Code / JetBrains / Desktop / Web | 代码库级操作、命令执行、MCP 连接、可用 GitHub Actions/GitLab CI 做自动化 提出了很多领先的理念,例如skills mcp 插件,已经成为ai coding届的事实标准 | 需要“一套引擎多端一致体验”的团队 | 高级能力常依赖订阅与账号体系；不同端能力细节有差异 |
 | Codex CLI | 终端编码 Agent（开源 CLI） | Terminal（macOS/Linux，Windows 实验） | 本地读写代码、执行命令、非交互模式、MCP/多 Agent/SDK/CI 集成路径完整 | 终端优先、自动化和脚本化需求强的团队 | 对命令行工作流有要求；能力边界受审批模式和环境权限影响 |

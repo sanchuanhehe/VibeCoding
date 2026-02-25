@@ -6,6 +6,7 @@
 
 - Python 3.12+
 - uv
+- Node.js（用于运行 markdownlint）
 
 ## 初始化
 
@@ -20,6 +21,20 @@ uv run sphinx-build -W --keep-going -b html docs docs/_build/html
 ```
 
 构建产物输出在 `docs/_build/html`。
+
+## Markdown 规范检查
+
+```bash
+make lint-md
+```
+
+自动修复可由 markdownlint 处理的问题：
+
+```bash
+make lint-md-fix
+```
+
+默认使用仓库根目录下的 `.markdownlint.jsonc` 和 `.markdownlintignore`。
 
 ## Esbonio
 

@@ -27,12 +27,22 @@
   - Individual/Developer/Team/Organization
 ```
 
+## 适合场景
+
+- 想在 Google 账号与 Google One/Workspace/Cloud 体系内使用一体化 AI IDE + Agent 的个人与团队
+
+## 主要限制/注意点
+
+- 当前处于 Public preview，文档抓取受动态页面影响；与“Gemini CLI（终端优先）”是不同产品线，能力与配额需按各自文档复核
+
 ## 详细评价
 
 ### 优势
+
 - 与 Google 账号和套餐体系联动明显。
 
 ### 局限
+
 - 处于 Public preview，能力与配额变化快。
 
 ## 证据链接
