@@ -37,16 +37,17 @@
 综合来看，AI Coding 市场已进入“规模化落地阶段”：竞争焦点不再只是模型能力本身，而是 **工作流整合能力、代理编排能力、治理与合规能力、以及跨工具生态兼容能力**。
 
 ```{note}
-数据口径说明（建议阅读时一并参考）：
-1. <https://openrouter.ai/state-of-ai> 反映的是 OpenRouter 平台上的真实调用行为（Token/类别/地域/工具调用等），是“平台观察样本”，并非全行业普查。
-2. <https://www.secondtalent.com/resources/vibe-coding-statistics/> 为第三方汇编统计，适合用于市场趋势参考；具体数值可能随样本、时间窗口和引用来源更新而变化。
-3. 本仓库在对比工具时，优先关注“趋势方向 + 口径一致性”，避免将不同来源的单点数值做直接横向等价比较。
+**数据口径说明**
+
+本文引用以下两个来源，阅读时请注意各自的统计口径：
+
+| 来源 | 性质 | 适用场景 |
+|---|---|---|
+| [OpenRouter, *State of AI*](https://openrouter.ai/state-of-ai) | 平台观察样本（真实 Token/类别/地域/工具调用行为） | 判断使用模式与趋势方向 |
+| [SecondTalent, *Top Vibe Coding Statistics & Trends [2026]*](https://www.secondtalent.com/resources/vibe-coding-statistics/) | 第三方汇编统计 | 市场规模与渗透率参考 |
+
+本仓库在对比工具时，优先关注"趋势方向 + 口径一致性"，**不**将不同来源的单点数值做直接横向等价比较。
 ```
-
-## 导言数据来源
-
-- OpenRouter, *State of AI*: <https://openrouter.ai/state-of-ai>
-- SecondTalent, *Top Vibe Coding Statistics & Trends [2026]*: <https://www.secondtalent.com/resources/vibe-coding-statistics/>
 
 ## 快速入口
 
