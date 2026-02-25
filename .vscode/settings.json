@@ -1,20 +1,20 @@
 {
   "esbonio.server.enabled": true,
-  "esbonio.server.pythonPath": "/usr/bin/python",
+  "esbonio.server.pythonPath": "python3",
   "esbonio.sphinx.pythonCommand": {
     "command": [
-      "/usr/bin/python",
+      "python3",
       "-S"
     ],
-    "cwd": "/home/sanchuanhehe/Documents/VibeCoding"
+    "cwd": "${scopeFsPath}"
   },
   "esbonio.sphinx.buildCommand": [
-    "/usr/bin/python",
+    "python3",
     "-m",
     "sphinx",
     "-M",
     "dirhtml",
-    "/home/sanchuanhehe/Documents/VibeCoding/docs",
-    "/home/sanchuanhehe/Documents/VibeCoding/docs/_build"
+    "docs",
+    "docs/_build"
   ]
 }
