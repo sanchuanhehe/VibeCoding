@@ -1,6 +1,20 @@
 {
-  "esbonio.sphinx.confDir": "${workspaceFolder}/docs",
-  "esbonio.sphinx.srcDir": "${workspaceFolder}/docs",
-  "esbonio.sphinx.buildDir": "${workspaceFolder}/docs/_build",
-  "esbonio.server.enabled": true
+  "esbonio.server.enabled": true,
+  "esbonio.server.pythonPath": "${command:python.interpreterPath}",
+  "esbonio.sphinx.pythonCommand": {
+    "command": [
+      "${command:python.interpreterPath}",
+      "-S"
+    ],
+    "cwd": "${workspaceFolder}"
+  },
+  "esbonio.sphinx.buildCommand": [
+    "${command:python.interpreterPath}",
+    "-m",
+    "sphinx",
+    "-M",
+    "dirhtml",
+    "docs",
+    "docs/_build"
+  ]
 }
