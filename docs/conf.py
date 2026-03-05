@@ -25,7 +25,7 @@ myst_enable_extensions = [
     "deflist",
 ]
 
-# LaTeX settings (CJK)
+# LaTeX settings
 latex_engine = 'xelatex'
 latex_use_xindy = False
 latex_elements = {
