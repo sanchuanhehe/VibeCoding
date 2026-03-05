@@ -14,6 +14,9 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 html_theme = "alabaster"
 html_static_path = ["_static"]
+html_css_files = [
+    'custom.css',
+]
 
 root_doc = "index"
 
@@ -34,10 +37,10 @@ latex_elements = {
 \let\cleardoublepage\clearpage
 \usepackage{xeCJK}
 \setCJKmainfont[
-    BoldFont=Droid Sans Fallback,
-    ItalicFont=Droid Sans Fallback
-]{Droid Sans Fallback}
-\setCJKmonofont{Droid Sans Fallback}
+    BoldFont=HarmonyOS Sans SC,
+    ItalicFont=HarmonyOS Sans SC
+]{HarmonyOS Sans SC}
+\setCJKmonofont{HarmonyOS Sans SC}
 \setmainfont{FreeSerif}
 \setsansfont{FreeSans}
 \setmonofont{FreeMono}

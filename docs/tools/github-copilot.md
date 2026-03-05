@@ -2,7 +2,7 @@
 tool: "GitHub Copilot"
 website: "https://github.com/features/copilot"
 docs: "https://docs.github.com/en/copilot"
-verified_date: ""
+verified_date: "2026-02-25"
 verified_by: ""
 ---
 
